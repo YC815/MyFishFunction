@@ -1,3 +1,4 @@
+# yushun's function
 function acmd
     cd
     v .dotfiles/fish/.config/fish/config.fish
