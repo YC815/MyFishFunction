@@ -25,11 +25,13 @@ function oc
 end
 
 function cl
+    pwd
     cd $argv # arguments
     ls
 end
 
 function ca
+    pwd
     cd $argv
     lla
 end
