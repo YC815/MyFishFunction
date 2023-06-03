@@ -1,0 +1,34 @@
+function acmd
+    cd
+    v .dotfiles/fish/.config/fish/config.fish
+end
+
+function run
+    if test "$argv" != --ng
+        open http://localhost:3000
+    end
+    if test -d node_modules
+        npm run dev
+    else
+        npm install
+        npm run dev
+    end
+end
+
+function of
+    open .
+end
+
+function oc
+    code .
+end
+
+function cl
+    cd $argv # arguments
+    ls
+end
+
+function ca
+    cd $argv
+    lla
+end
