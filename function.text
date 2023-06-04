@@ -36,6 +36,3 @@ function ca
     lla
 end
 
-function a
-    echo "test"
-end
