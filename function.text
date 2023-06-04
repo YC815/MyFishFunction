@@ -35,3 +35,7 @@ function ca
     cd $argv
     lla
 end
+
+function a
+    echo "test"
+end
