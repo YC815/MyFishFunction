@@ -36,6 +36,10 @@ function ca
     lla
 end
 
+function z
+    cd /Users/yushunchen/.z/$argv # arguments
+end
+
 function a
     ls
 end
